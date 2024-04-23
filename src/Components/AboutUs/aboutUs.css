@@ -1,0 +1,71 @@
+.container.light {
+  width: 100%;
+  background-color: white;
+  color: black;
+}
+
+.container {
+  background-color: rgb(0, 0, 0, 0.8);
+  color: #fff;
+}
+
+header {
+  padding-top: 100px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2rem;
+  padding-bottom: 50px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.team-member {
+  text-align: center;
+  width: 30%;
+}
+
+.team-member img {
+  width: 50%;
+  border-radius: 50%;
+}
+
+.team-member h2 {
+  margin-top: 10px;
+  font-size: 1.5rem;
+}
+
+.team-member p {
+  margin-top: 5px;
+  font-size: 1rem;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer button:hover {
+  background-color: #0056b3;
+}
+
+.para{
+  padding-top: 50px;
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center;
+}
